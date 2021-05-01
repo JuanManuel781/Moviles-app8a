@@ -18,7 +18,8 @@
             android:layout_height="wrap_content"
             android:text="@string/label_1"
             android:textSize="18sp"
-            android:layout_marginTop="10dp"/>
+            android:layout_marginTop="10dp"
+            android:textStyle="bold"/>
 
         <EditText
             android:id="@+id/editText1"
@@ -34,7 +35,8 @@
             android:layout_height="wrap_content"
             android:text="@string/label_2"
             android:textSize="18sp"
-            android:layout_marginTop="20dp"/>
+            android:layout_marginTop="20dp"
+            android:textStyle="bold"/>
 
         <EditText
             android:id="@+id/editText2"
@@ -57,7 +59,8 @@
             android:layout_marginTop="20dp"
             android:background="#08D242"
             android:onClick="operaciones_ma"
-            android:text="@string/btn_1" />
+            android:text="@string/btn_1"
+            app:backgroundTint="@color/Btn_color" />
 
         <TextView
             android:id="@+id/textView5"
@@ -65,6 +68,7 @@
             android:layout_height="wrap_content"
             android:text="@string/label_3"
             android:textSize="100sp"
-            android:gravity="center"/>
+            android:gravity="center"
+            android:textStyle="bold"/>
     </LinearLayout>
 </RelativeLayout>

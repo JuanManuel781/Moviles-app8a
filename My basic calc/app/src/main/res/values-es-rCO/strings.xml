@@ -3,8 +3,8 @@
     <string name="app_name">Mi Calculadora Básica</string>
     <string name="label_1">Número uno</string>
     <string name="label_2">Número dos</string>
-    <string name="btn_1">Suma</string>
-    <string name="label_3">#</string>
+    <string name="btn_1">obtener resultado</string>
+    <string name="label_3">?</string>
     <string name="hnt_1">Ingrese aqui número uno</string>
     <string name="hnt_2">Ingrese aqui número dos </string>
     <string name="sp1">operaciones</string>

@@ -2,8 +2,8 @@
     <string name="app_name">My basic calc</string>
     <string name="label_1">Number one</string>
     <string name="label_2">Number two</string>
-    <string name="btn_1">Add</string>
-    <string name="label_3">#</string>
+    <string name="btn_1">Get result</string>
+    <string name="label_3">?</string>
     <string name="hnt_1">Press here number one</string>
     <string name="hnt_2">Press here number two</string>
     <string name="sp1">operations</string>

@@ -27,7 +27,7 @@ public class MainActivity extends AppCompatActivity {
 
         /* Crear un vector */
 
-        String[] opciones={"Sumar","Restar","Multiplicar", "Dividir"};
+        String[] opciones={"Add","Substract","Multiply", "Divide"};
         ArrayAdapter<String>adapter=new ArrayAdapter<String>
                 (this,android.R.layout.simple_spinner_item, opciones);
         sp1.setAdapter(adapter);
@@ -45,20 +45,20 @@ public class MainActivity extends AppCompatActivity {
 
       select= sp1.getSelectedItem().toString();
 
-      if(select.equals("Sumar")){
+      if(select.equals("Add")){
             sum= num1+num2;
             tv3.setText(""+sum);
         }
         else {
-            if (select.equals("Restar")){
+            if (select.equals("Substract")){
                 resta= num1-num2;
                 tv3.setText(""+resta);
             }else {
-                if(select.equals("Multiplicar")){
+                if(select.equals("Multiply")){
                     mult=num1*num2;
                     tv3.setText(""+mult);
                 }else{
-                    if (select.equals("Dividir")){
+                    if (select.equals("Divide")){
                         divi=num1/num2;
                         tv3.setText(""+divi);
                     }
