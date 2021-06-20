@@ -1,0 +1,26 @@
+<resources>
+
+
+    <string name="app_name">Filter Color</string>
+    <string name="lbl_red">Red</string>
+    <string name="lbl_green">Green</string>
+    <string name="lbl_blue">Blue</string>
+    <string name="lbl_alpha">Alpha</string>
+    <string name="lbl_Yellow">Yellow</string>
+    <string name="lbl_black">Black</string>
+    <string name="lbl_brown">Brown</string>
+    <string name="lbl_gray">Gray</string>
+    <string name="lbl_magenta">Magenta</string>
+    <string name="lbl_cyan">Cyan</string>
+    <string name="lbl_Trasparent">Trasparent</string>
+    <string name="lbl_SemiTransparent">SemiTrasparent</string>
+    <string name="lbl_Help">Help</string>
+    <string name="lbl_Reset">Reset</string>
+    <string name="lbl_Aboutof">About of</string>
+    <string name="lbl_Exit">Exit</string>
+    <string name="lbl_Colors">Colors</string>
+    <string name="lbl_White">White</string>
+    <string name="lbl_Opaque">Opaque</string>
+    <string name ="lbl_Opaqu">opaque</string>
+
+</resources>

@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="20dp">
+
+        <EditText
+            android:id="@+id/txtSearch"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName" />
+
+        <Button
+            android:id="@+id/btnSearch"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_1"
+            android:textSize="18sp"
+            android:background="@color/gray"
+            android:textColor="@color/black"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="250dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:background="@color/teal_200"
+                android:text="@string/lbl_1"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/lblCurrent"
+                android:layout_width="250dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:background="@color/teal_200"
+                android:textSize="18sp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="250dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:background="@color/azul_C"
+                android:text="@string/lbl_3"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/lblmin"
+                android:layout_width="250dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:background="@color/azul_C"
+                android:textSize="18sp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="250dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:background="@color/Amarillo"
+                android:text="@string/lbl_5"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/lblmax"
+                android:layout_width="250dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:background="@color/Amarillo"
+                android:textSize="18sp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:layout_width="250dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:background="@color/Rojo"
+                android:text="@string/lbl_6"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textViewWeather"
+                android:layout_width="250dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:background="@color/Rojo"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="50dp"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/imgWeather"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    tools:srcCompat="@tools:sample/avatars" />
+
+                <Button
+                    android:id="@+id/btnGo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/btn_2" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

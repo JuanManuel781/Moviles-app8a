@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">DemoWeather</string>
+    <string name="btn_1">SEARCH WEATHER</string>
+    <string name="btn_2">GO TO MAPS</string>
+    <string name="lbl_1">Current:</string>
+    <string name="lbl_2">Current weather</string>
+    <string name="lbl_3">Min:</string>
+    <string name="lbl_4">Min weather</string>
+    <string name="lbl_5">Max:</string>
+    <string name="lbl_6">Max weather</string>
+    <string name="lbl_7">Weather:</string>
+    <string name="lbl_8">Here weatherVal</string>
+
+
+</resources>

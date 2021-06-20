@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">DemoWeather</string>
+    <string name="btn_1">BUSCAR CLIMA</string>
+    <string name="btn_2">IR A MAPAS</string>
+    <string name="lbl_1">Actual:</string>
+    <string name="lbl_2">Clima actual</string>
+    <string name="lbl_3">Min:</string>
+    <string name="lbl_4">Tiempo mínimo</string>
+    <string name="lbl_5">Max:</string>
+    <string name="lbl_6">Tiempo máximo</string>
+    <string name="lbl_7">Tiempo:</string>
+    <string name="lbl_8">Here weatherVal</string>
+</resources>

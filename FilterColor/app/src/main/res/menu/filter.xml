@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/itecolorsMenu" android:title="@string/lbl_Colors">
+        <menu>
+            <item android:id="@+id/iteYellow" android:title="@string/lbl_Yellow"/>
+            <item android:id="@+id/iteBlack" android:title="@string/lbl_black"/>
+            <item android:id="@+id/iteBrown" android:title="@string/lbl_brown"/>
+            <item android:id="@+id/iteGray" android:title="@string/lbl_gray"/>
+            <item android:id="@+id/iteMagenta" android:title="@string/lbl_magenta"/>
+            <item android:id="@+id/iteCyan" android:title="@string/lbl_cyan"/>
+            <item android:id="@+id/iteRed" android:title="@string/lbl_red"/>
+            <item android:id="@+id/iteGreen" android:title="@string/lbl_green"/>
+            <item android:id="@+id/iteBlue" android:title="@string/lbl_blue"/>
+            <item android:id="@+id/iteTransparent" android:title="@string/lbl_Trasparent"/>
+            <item android:id="@+id/iteSemiTransparent" android:title="@string/lbl_SemiTransparent"/>
+            <item android:id="@+id/iteWhite" android:title="@string/lbl_White"/>
+            <item android:id="@+id/iteOpaque" android:title="@string/lbl_Opaque"/>
+        </menu>
+    </item>
+
+    <item android:id="@+id/iteReset" android:title="@string/lbl_Reset" android:icon="@drawable/ic_reset" app:showAsAction="ifRoom"/>
+    <item android:id="@+id/iteAboutof" android:title="@string/lbl_Aboutof"/>
+    <item android:id="@+id/iteExit" android:title="@string/lbl_Exit"/>
+    <item
+        android:id="@+id/iteHelp"
+        android:title="@string/lbl_Help"
+        android:icon="@drawable/ic_help"
+        app:showAsAction="ifRoom">
+
+    </item>
+
+</menu>

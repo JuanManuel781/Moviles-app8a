@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Login</string>
+    <string name="lbl1">Username</string>
+    <string name="lbl2">Password</string>
+    <string name="btn1">SIGN IN</string>
+    <string name="btn2">SING UP</string>
+    <string name="lblA2">Firstname</string>
+    <string name="lb2A2">Lastname</string>
+    <string name="lb3A2">Confirm password</string>
+    <string name="btnA1">REGISTER</string>
+    <string name="lbl1A3">Birth</string>
+    <string name="lbl2A3">Country</string>
+    <string name="lbl3A3">Phone</string>
+    <string name="lbl4A3">Gender</string>
+    <string name="btn1A3">UPDATE</string>
+    <string name="menu_item1">List male users</string>
+    <string name="menu_item2">List female users</string>
+    <string name="menu_item3">List all users</string>
+    <string name="menu_item4">About</string>
+</resources>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Login</string>
+    <string name="lbl1">Nombre de usuario</string>
+    <string name="lbl2">Contraseña</string>
+    <string name="btn1">INICIAR SESIÓN</string>
+    <string name="btn2">REGISTRARSE</string>
+    <string name="lblA2">Primer nombre</string>
+    <string name="lb2A2">Apellido</string>
+    <string name="lb3A2">Confirmar contraseña</string>
+    <string name="btnA1">REGISTRARSE</string>
+    <string name="lbl1A3">Fecha de nacimiento</string>
+    <string name="lbl2A3">País</string>
+    <string name="lbl3A3">Celular</string>
+    <string name="lbl4A3">Genero</string>
+    <string name="btn1A3">Actualizar</string>
+    <string name="menu_item1">Lista de usuarios masculinos</string>
+    <string name="menu_item2">Lista de usuarias femeninas </string>
+    <string name="menu_item3">Lista de todos lo usuarios</string>
+    <string name="menu_item4">Acerca de</string>
+</resources>
